@@ -9,8 +9,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use('/api', routes);
 
-const PORT = 8080;
-const HOST = '0.0.0.0';
-app.listen(PORT, HOST);
+const PORT = process.env.PORT || 8080;
+
+app.listen(PORT);
 
 module.exports = app;
