@@ -1,0 +1,14 @@
+{
+  "name": "idruide-grocery-list-backend",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Guillaume Borg <guillaume.unice@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "body-parser": "~1.18.3"
+  }
+}
